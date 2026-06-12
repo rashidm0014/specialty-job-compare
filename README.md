@@ -36,11 +36,18 @@ Open `http://localhost:8765` and hard-refresh after changes (`Ctrl+Shift+R`).
 npm test
 ```
 
-## Deploy to GitHub Pages
+## Publish to GitHub (one-time)
 
-1. Push this repo to GitHub (default branch `main`).
-2. In the repo: **Settings → Pages → Build and deployment → Source**: select **GitHub Actions**.
-3. Push to `main` — the workflow `.github/workflows/deploy-pages.yml` publishes the site.
+From PowerShell in this folder:
+
+```powershell
+gh auth login -h github.com -p https -w
+.\scripts\publish-github.ps1
+```
+
+Then in the new GitHub repo: **Settings → Pages → Build and deployment → Source** → **GitHub Actions**.
+
+The workflow runs automatically on every push to `main`.
 
 ## License
 
