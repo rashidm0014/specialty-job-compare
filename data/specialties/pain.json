@@ -1,0 +1,208 @@
+{
+  "name": "Interventional Pain",
+  "emoji": "💉",
+  "tag": "Procedure mix, ASC/equity, wRVUs, referral base, APP leverage, quality/risk, contract terms.",
+  "checklist": [
+    "Epidural steroid injections - lumbar/cervical/thoracic",
+    "Transforaminal epidural steroid injections",
+    "Medial branch blocks",
+    "Radiofrequency ablation - lumbar/cervical/thoracic",
+    "SI joint injections",
+    "SI fusion pathway",
+    "Hip/knee/shoulder peripheral joint injections",
+    "Spinal cord stimulator trials",
+    "Spinal cord stimulator implants",
+    "Peripheral nerve stimulation",
+    "Intrathecal pump trials",
+    "Intrathecal pump implants/refills",
+    "Kyphoplasty/vertebral augmentation",
+    "MILD procedure",
+    "Basivertebral nerve ablation / Intracept",
+    "Botox for migraine/spasticity",
+    "Sympathetic blocks",
+    "Stellate ganglion blocks",
+    "Cancer pain / plexus blocks",
+    "Ultrasound-guided nerve blocks",
+    "Fluoroscopy suite access",
+    "Sedation/nursing support",
+    "Device-rep support",
+    "Prior-authorization support",
+    "ASC/procedure-center access",
+    "Medication-management policy clarity",
+    "APP supervision workflow",
+    "Opioid compliance infrastructure"
+  ],
+  "volume": [
+    "Clinic days/week",
+    "Procedure days/week",
+    "New patients/week",
+    "Follow-ups/week",
+    "Procedures/week",
+    "RFAs/month",
+    "ESIs/month",
+    "SCS trials/month",
+    "SCS implants/month",
+    "PNS cases/month",
+    "Kyphoplasty/Intracept/MILD cases/month",
+    "Pump cases/refills/month",
+    "Expected annual wRVUs",
+    "wRVUs/procedure day",
+    "Medication-management visits/week",
+    "APPs supervised",
+    "Authorization denial rate",
+    "Ramp-up assumption",
+    "Non-compete radius (miles)",
+    "Non-compete duration (months)",
+    "Tail coverage (who pays / est $)"
+  ],
+  "questions": [
+    "What is the wRVU threshold and conversion factor?",
+    "Is the base guaranteed or a draw?",
+    "What procedures are supported now versus aspirational?"
+  ],
+  "samples": [
+    {
+      "name": "Hospital-employed Pain Program",
+      "location": "Local hospital / multisite",
+      "jobType": "Hospital-employed",
+      "status": "Researching",
+      "baseSalary": 400000,
+      "wrvuRate": 68,
+      "wrvuThreshold": 5880,
+      "expectedWrvu": 7000,
+      "commute": 15,
+      "clinicalFit": 8,
+      "compFit": 7,
+      "lifestyleFit": 8,
+      "riskFit": 8,
+      "strategicFit": 8,
+      "collabFit": 8,
+      "pros": "Stable system, benefits, local referral base, lower business risk.",
+      "cons": "Clarify autonomy, procedure mix, threshold, noncompete, and whether advanced procedures are truly supported."
+    },
+    {
+      "name": "Orthopedic Group Pain Role",
+      "location": "Regional ortho group",
+      "jobType": "Orthopedic group",
+      "status": "Researching",
+      "baseSalary": 400000,
+      "wrvuRate": 70,
+      "wrvuThreshold": 6500,
+      "expectedWrvu": 8000,
+      "commute": 45,
+      "clinicalFit": 8,
+      "compFit": 8,
+      "lifestyleFit": 6,
+      "riskFit": 6,
+      "strategicFit": 8,
+      "collabFit": 8,
+      "pros": "Strong referral stream, procedures, PM&R/ortho alignment, productivity upside.",
+      "cons": "Commute, noncompete, pressure for volume, and ASC/equity details need review."
+    },
+    {
+      "name": "Private Practice with ASC Path",
+      "location": "Private practice market",
+      "jobType": "Private practice",
+      "status": "Researching",
+      "baseSalary": 300000,
+      "wrvuRate": 0,
+      "wrvuThreshold": 0,
+      "expectedWrvu": 7000,
+      "commute": 30,
+      "hasEquity": true,
+      "equityAnnualIncome": 150000,
+      "equityBuyIn": 500000,
+      "equityTimeline": "Year 2-3",
+      "clinicalFit": 8,
+      "compFit": 8,
+      "lifestyleFit": 6,
+      "riskFit": 5,
+      "strategicFit": 9,
+      "collabFit": 7,
+      "pros": "Highest upside if ASC/equity is real and referral volume is durable.",
+      "cons": "Buy-in risk, debt, valuation, restrictive covenant, and true distributions must be verified."
+    }
+  ],
+  "expandedQuestions": {
+    "Compensation": [
+      "Is the base salary guaranteed, or does it convert to a draw?",
+      "What is the wRVU threshold before bonus begins?",
+      "Is the wRVU rate paid only above threshold or on all wRVUs?",
+      "Is there any deficit carryforward, productivity clawback, or bonus cap?",
+      "How frequently are productivity bonuses calculated and paid?",
+      "Are sign-on, relocation, CME, student loan, retention, or call stipends available?",
+      "Are peer-to-peer denials, prior authorizations, and no-show procedure slots considered in productivity expectations?"
+    ],
+    "ASC / ancillary / partnership": [
+      "Is ASC ownership, partnership, or ancillary income available?",
+      "What is the buy-in amount, valuation method, financing option, and expected timeline?",
+      "What have historical ASC distributions been over the last 3 years?",
+      "What happens to ownership if the physician leaves, is terminated, or relocates?",
+      "Are imaging, DME, PT, lab, real estate, or management-company revenues included or excluded?",
+      "Are there restrictions on where procedures can be performed?",
+      "Who controls block time, case allocation, and payer contracting?"
+    ],
+    "Clinical model": [
+      "How many clinic days and procedure days are expected each week?",
+      "What percentage of the practice is medication management versus interventional care?",
+      "Are SCS, PNS, MILD, Intracept, kyphoplasty, pumps, and advanced procedures supported now?",
+      "Who controls procedure scheduling, referral triage, prior authorizations, and denial appeals?",
+      "What is the expected new-patient referral volume and current wait time?",
+      "Are fluoroscopy, ultrasound, sedation, nursing, and device-rep support available?",
+      "What is the opioid policy and who manages chronic medication refills?"
+    ],
+    "APP supervision": [
+      "Will NPs/PAs see pain patients under my supervision?",
+      "How many APPs would I supervise at full ramp?",
+      "Is APP supervision compensated separately? If so, how much per APP, per visit, per chart, or as a percentage of collections/RVUs?",
+      "Who owns liability, controlled-substance workflow, refills, inbox messages, and chart review?",
+      "Are APP encounters credited to the physician, the APP, or the group?",
+      "Can APP supervision be declined or renegotiated if workload becomes excessive?"
+    ],
+    "Quality bonus": [
+      "Is there a quality bonus separate from productivity?",
+      "Which metrics matter: access, patient satisfaction, opioid compliance, documentation, denial rate, procedure outcomes, complications, or referral leakage?",
+      "What is the maximum quality bonus and historical average payout?",
+      "Can metrics reduce compensation or only add upside?",
+      "Are targets formula-based, discretionary, or changed annually?"
+    ],
+    "Lifestyle / support": [
+      "What is call burden, after-hours phone expectation, and weekend coverage?",
+      "Is there protected admin time for notes, peer-to-peers, and prior authorizations?",
+      "How much travel between sites is expected?",
+      "Are scribes, MAs, nurses, authorization staff, and procedure schedulers adequate?",
+      "How often are procedure days lost to staffing, authorization, or payer denials?"
+    ],
+    "Contract risk": [
+      "What is the noncompete radius, duration, and specialty scope?",
+      "Is malpractice occurrence or claims-made, and who pays tail?",
+      "What are termination-without-cause provisions?",
+      "Are sign-on, relocation, CME, loan repayment, or bonus payments subject to repayment?",
+      "Can my CV be submitted only with written authorization?",
+      "Who owns patient lists, referral relationships, and procedure-center access if I leave?"
+    ]
+  },
+  "scoringContext": {
+    "Clinical Fit": [
+      "Procedure mix matches current skillset and future growth goals.",
+      "Medication-management burden is acceptable and supported by policy.",
+      "ASC/fluoro/sedation/device infrastructure is real, staffed, and available."
+    ],
+    "Compensation Upside": [
+      "Base, wRVU threshold, conversion factor, ASC/equity, and APP supervision are all quantified.",
+      "Advanced procedures and denials do not make productivity targets unrealistic."
+    ],
+    "Lifestyle Fit": [
+      "Clinic/procedure split, prior-auth burden, call, and travel fit family life."
+    ],
+    "Risk Safety": [
+      "Noncompete, CV submission control, tail, ASC buy-in, and clawbacks are acceptable."
+    ],
+    "Strategic Fit": [
+      "Referral network, local reputation, and procedure platform improve long-term market value."
+    ],
+    "Collaborative Fit": [
+      "Ortho, neurosurgery, PM&R, PT, psychology, and primary care referrals are aligned."
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "pain-national": {
+    "label": "Pain — National template",
+    "specialty": "pain",
+    "region": "National",
+    "source": "Your licensed data (template)",
+    "file": "pain-national.json"
+  },
+  "peds-national": {
+    "label": "Pediatrics — National template",
+    "specialty": "peds",
+    "region": "National",
+    "source": "Your licensed data (template)",
+    "file": "peds-national.json"
+  },
+  "anesthesia-national": {
+    "label": "Anesthesiology — National template",
+    "specialty": "anesthesia",
+    "region": "National",
+    "source": "Your licensed data (template)",
+    "file": "anesthesia-national.json"
+  }
+}

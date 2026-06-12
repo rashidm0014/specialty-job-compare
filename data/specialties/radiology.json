@@ -1,0 +1,166 @@
+{
+  "name": "Radiology",
+  "emoji": "🩻",
+  "tag": "RVUs/shift, nights, call, modality mix, remote work, partnership, contract stability.",
+  "checklist": [
+    "Diagnostic general radiology",
+    "Mammography",
+    "Breast procedures",
+    "Interventional radiology",
+    "Neuro radiology",
+    "MSK radiology",
+    "Body imaging",
+    "Emergency radiology",
+    "Pediatric imaging",
+    "Nuclear medicine/PET",
+    "Fluoro procedures",
+    "Weekend call",
+    "Night call",
+    "Teleradiology",
+    "Remote workstation",
+    "AI/worklist tools",
+    "RPA/RA supervision",
+    "Internal moonlighting",
+    "Partnership track",
+    "Hospital contract stability",
+    "Turnaround-time support",
+    "Malpractice/tail clarity"
+  ],
+  "volume": [
+    "Shifts/year",
+    "Shifts/month",
+    "RVUs/shift",
+    "Annual wRVUs",
+    "Nights/year",
+    "Weekend shifts/year",
+    "Call shifts/month",
+    "Mammo volume",
+    "Breast procedures/month",
+    "IR cases/month",
+    "Remote shifts/month",
+    "Vacation weeks",
+    "Partnership years",
+    "Internal moonlighting shifts",
+    "Turnaround-time targets",
+    "Worklist coverage sites",
+    "Non-compete radius (miles)",
+    "Non-compete duration (months)",
+    "Tail coverage (who pays / est $)"
+  ],
+  "questions": [
+    "What are RVUs/shift and annual expectations?",
+    "How are nights/weekends paid?",
+    "Is partnership available and what is buy-in?"
+  ],
+  "samples": [
+    {
+      "name": "Private Radiology Partnership Track",
+      "location": "Regional hospital contract",
+      "jobType": "Private practice",
+      "status": "Researching",
+      "baseSalary": 450000,
+      "commute": 20,
+      "hasEquity": true,
+      "equityTimeline": "Partner after 1-2 years",
+      "clinicalFit": 8,
+      "compFit": 9,
+      "lifestyleFit": 6,
+      "riskFit": 6,
+      "strategicFit": 8,
+      "collabFit": 7,
+      "pros": "High partnership upside.",
+      "cons": "Night/weekend burden and hospital contract risk must be reviewed."
+    },
+    {
+      "name": "Teleradiology Role",
+      "location": "Remote",
+      "jobType": "Teleradiology",
+      "status": "Researching",
+      "baseSalary": 500000,
+      "clinicalFit": 7,
+      "compFit": 8,
+      "lifestyleFit": 7,
+      "riskFit": 7,
+      "strategicFit": 6,
+      "collabFit": 6,
+      "pros": "Remote flexibility and clear shift pay.",
+      "cons": "Isolation, night shifts, productivity pressure."
+    },
+    {
+      "name": "Academic Radiology Position",
+      "location": "University hospital",
+      "jobType": "Academic",
+      "status": "Researching",
+      "baseSalary": 375000,
+      "commute": 35,
+      "clinicalFit": 8,
+      "compFit": 5,
+      "lifestyleFit": 7,
+      "riskFit": 8,
+      "strategicFit": 8,
+      "collabFit": 8,
+      "pros": "Teaching, research, subspecialty focus.",
+      "cons": "Lower compensation and academic obligations."
+    }
+  ],
+  "expandedQuestions": {
+    "Compensation": [
+      "Is pay salary, shift rate, RVU productivity, partnership draw, or hybrid?",
+      "How are nights, weekends, holidays, internal moonlighting, and extra shifts paid?",
+      "What is the expected RVU/shift and annual RVU target?",
+      "Are partnership distributions equal, productivity-based, or seniority-based?",
+      "Are sign-on, relocation, retention, or loan repayment available?"
+    ],
+    "Clinical model": [
+      "What is the modality and subspecialty mix?",
+      "What are expectations for mammo, IR, breast procedures, emergency reads, peds, or nuclear/PET?",
+      "How many sites and worklists are covered?",
+      "What is the teleradiology structure?",
+      "Are turnaround-time expectations realistic with staffing and worklist tools?"
+    ],
+    "APP / RPA / RA supervision": [
+      "Are RPAs/RAs supervised and compensated?",
+      "Who signs procedure notes, handles complications, and owns liability?",
+      "Does supervision improve productivity or add uncompensated work?"
+    ],
+    "Quality bonus": [
+      "Are metrics tied to turnaround time, peer review, critical results, report addenda, patient satisfaction, or biopsy follow-up?",
+      "What is the maximum quality bonus and historical payout?",
+      "Can metrics reduce compensation or only add upside?"
+    ],
+    "Lifestyle / schedule": [
+      "How many nights, weekends, holidays, and call shifts are required?",
+      "Is there remote-work flexibility?",
+      "How are vacations assigned?",
+      "Are shifts fixed, rotating, or variable?",
+      "Is internal moonlighting optional or expected?"
+    ],
+    "Partnership / contract risk": [
+      "What is the partnership timeline, buy-in, and distribution formula?",
+      "What happens if the hospital contract is lost?",
+      "Is malpractice occurrence or claims-made, and who pays tail?",
+      "What is the noncompete/nonsolicit?",
+      "Are productivity expectations or schedules changeable unilaterally?"
+    ]
+  },
+  "scoringContext": {
+    "Clinical Fit": [
+      "Modality/subspecialty mix and RVUs/shift match training and stamina."
+    ],
+    "Compensation Upside": [
+      "RVU, shift, night/weekend, moonlighting, and partnership distributions are clear."
+    ],
+    "Lifestyle Fit": [
+      "Nights, weekends, call, remote work, and vacation are sustainable."
+    ],
+    "Risk Safety": [
+      "Hospital contract loss, tail, noncompete, and productivity changes are addressed."
+    ],
+    "Strategic Fit": [
+      "Partnership, subspecialty demand, remote options, and group reputation build value."
+    ],
+    "Collaborative Fit": [
+      "Technologists, referring clinicians, admins, RPAs/RAs, and worklist support are strong."
+    ]
+  }
+}

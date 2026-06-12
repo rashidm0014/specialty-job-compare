@@ -1,0 +1,183 @@
+{
+  "updated": "2026-06",
+  "disclaimer": "Illustrative ranges from public forums, physician communities, and aggregated salary reports (2024–2026). Not MGMA/AMGA data. Use for negotiation context only; enter licensed benchmarks you have rights to use in the Benchmarks tab.",
+  "sources": [
+    "Student Doctor Network forums",
+    "Physician Side Gigs noncompete database",
+    "SalaryDr verified submissions",
+    "Ava Health / MedMoneyGuide specialty guides",
+    "FastRVU / FairRVU MGMA-cited calculators",
+    "LocumStory / AMN locums reports"
+  ],
+  "universal": {
+    "noncompete": {
+      "radiusMilesMedian": 15,
+      "radiusMilesAvg": 20,
+      "durationMonthsMedian": 18,
+      "durationMonthsTypical": "12–24",
+      "source": "Physician Side Gigs (2023–2025 community submissions)"
+    },
+    "signOn": { "median": 50000, "range": "30000–125000", "source": "Recruiter/job board aggregates 2025–2026" },
+    "cme": { "median": 3500, "range": "2500–5000", "source": "SDN contract threads; typical offer terms" }
+  },
+  "specialties": {
+    "pain": {
+      "label": "Interventional Pain",
+      "productivityUnit": "wRVU",
+      "compMedian": 515000,
+      "compRange": "505000–800000",
+      "compP25": 505000,
+      "compP75": 650000,
+      "prodMedian": 7600,
+      "prodRange": "6000–14400",
+      "ratePerUnit": "60–71",
+      "callPayNight": "1200–2000",
+      "collectionsPct": "35–45% net (private)",
+      "sources": ["SalaryDr Interventional Pain 2026 (n=9)", "Pain community / private practice threads"],
+      "workflowHints": [
+        "Document ASC buy-in and procedure-site restrictions separately from hospital non-compete.",
+        "Prior-auth denial rate in Volume affects whether wRVU targets are realistic.",
+        "Compare bonus conversion on wRVUs above threshold only vs all wRVUs."
+      ],
+      "redFlags": ["Non-compete covering all procedure sites", "Uncompensated APP supervision with high volume", "Productivity threshold above 90th percentile production"]
+    },
+    "peds": {
+      "label": "Outpatient Pediatrics",
+      "productivityUnit": "wRVU",
+      "compMedian": 245000,
+      "compRange": "215000–285000",
+      "compP25": 215000,
+      "compP75": 285000,
+      "prodMedian": 5000,
+      "prodRange": "4800–6500",
+      "ratePerUnit": "42–54",
+      "visitsPerDay": "20–30",
+      "panelSize": "1500–2200",
+      "callPayNight": "Often unpaid (built into base); nursery call varies",
+      "sources": ["SalaryDr Pediatrics 2026", "Ava Health Pediatrics guide", "FastRVU MGMA-cited pediatrics"],
+      "workflowHints": [
+        "Panel size and inbox hours in Volume — panels above 2200 are aggressive per AMA/MGMA guidance.",
+        "Newborn nursery and weekend clinic obligations belong in checklist + contract diligence.",
+        "Score lifestyle only after documenting call and inbox burden."
+      ],
+      "redFlags": ["Broad non-compete for all outpatient pediatrics", "Panel attribution without support staff", "Quality metrics tied to access without same-day slots"]
+    },
+    "anesthesia": {
+      "label": "Anesthesiology",
+      "productivityUnit": "ASA units / wRVU",
+      "compMedian": 535000,
+      "compRange": "470000–625000",
+      "compP25": 470000,
+      "compP75": 625000,
+      "prodMedian": 11800,
+      "prodRange": "10000–13000",
+      "ratePerUnit": "50–75",
+      "callPayNight": "1200–2000 in-house; 400–800 home",
+      "sources": ["SalaryDr Anesthesiology 2026 (n=166)", "Ava Health Anesthesia 2026", "ResidencyAdvisor group models"],
+      "workflowHints": [
+        "Log post-call day off policy in Volume — not just call nights/month.",
+        "Medical direction vs supervision billing affects true hourly value.",
+        "Hospital contract loss clause is critical for employed groups."
+      ],
+      "redFlags": ["No post-call recovery day with heavy in-house call", "wRVU target misaligned with ASA unit reality", "Group non-compete spanning entire health system"]
+    },
+    "derm": {
+      "label": "Dermatology",
+      "productivityUnit": "collections %",
+      "compMedian": 450000,
+      "compRange": "400000–510000",
+      "compGuarantee": "350000–450000 (yr 1–2)",
+      "collectionsPct": "40–50%",
+      "collectionsMedian": 900000,
+      "collectionsRange": "900000–1200000",
+      "patientsPerDay": "30–40",
+      "partnershipYears": "2–4",
+      "sources": ["SDN Derm Compensation thread", "Next Steps in Derm", "Physician Side Gigs partnership data"],
+      "workflowHints": [
+        "Separate medical vs cosmetic collections % in diligence answers.",
+        "Partnership track ~2.25 years median in community data — verify buy-in in writing.",
+        "Non-compete should be scoped: cosmetics, Mohs, telederm called out separately."
+      ],
+      "redFlags": ["Cosmetic revenue excluded from collections definition", "Patient/social media restrictions beyond standard nonsolicit", "Overhead allocation unclear in collections model"]
+    },
+    "radiology": {
+      "label": "Radiology",
+      "productivityUnit": "wRVU / shift",
+      "compMedian": 470000,
+      "compRange": "380000–550000",
+      "compP25": 400000,
+      "compP75": 550000,
+      "prodMedian": 10500,
+      "prodRange": "9000–13000",
+      "ratePerUnit": "42–50",
+      "rvuPerShift": "60–80",
+      "sources": ["FastRVU Radiology MGMA 2025", "RadBoard aggregates", "ResidencyAdvisor telerad/private practice"],
+      "workflowHints": [
+        "Document night/weekend differential and internal moonlighting rights.",
+        "Telerad rates are volatile — confirm contract adjustment clauses.",
+        "Modality mix in checklist drives whether RVU targets are achievable."
+      ],
+      "redFlags": ["Hospital contract non-renewal without transition plan", "Pure per-click telerad with unilateral rate changes", "Non-compete blocking remote reads in allowed states"]
+    },
+    "psych": {
+      "label": "Psychiatry",
+      "productivityUnit": "wRVU / visits",
+      "compMedian": 310000,
+      "compRange": "268000–365000",
+      "compTelehealth": "245000–355000",
+      "prodMedian": 4500,
+      "prodRange": "4000–5500",
+      "ratePerUnit": "48–62",
+      "visitsPerDay": "12–18 outpatient",
+      "locumsHourly": "185–220",
+      "sources": ["Ava Health Psychiatry 2026", "LocumStory Psychiatry 2025", "AMN locums psych averages"],
+      "workflowHints": [
+        "No-show policy and visit length belong in Volume — they drive effective hourly pay.",
+        "Telehealth state licensing and malpractice situs in contract diligence.",
+        "Controlled-substance / ADHD-heavy models: document DEA liability split."
+      ],
+      "redFlags": ["Non-compete restricting telehealth in parity states", "Uncompensated crisis call", "1099 platform with variable panel build risk"]
+    },
+    "primary": {
+      "label": "Primary Care / Family Medicine",
+      "productivityUnit": "wRVU",
+      "compMedian": 275000,
+      "compRange": "260000–300000",
+      "compP25": 260000,
+      "compP75": 300000,
+      "prodMedian": 5200,
+      "prodRange": "4200–6400",
+      "ratePerUnit": "48–55",
+      "panelSize": "1800–2200",
+      "visitsPerDay": "20–25",
+      "qualityBonus": "10000–25000",
+      "sources": ["MedMoneyGuide FM 2026", "FairRVU MGMA-cited FM", "AMA panel management guidance"],
+      "workflowHints": [
+        "Negotiate max panel size in contract — above 2500 is aggressive per community norms.",
+        "Inbox/admin hours in Volume; VBC bonus historical payout in quality diligence.",
+        "Align wRVU threshold to 50th percentile (~5200), not 75th+, before scoring comp fit."
+      ],
+      "redFlags": ["High base with 90th percentile wRVU threshold", "Quality formula changeable unilaterally", "Non-compete covering entire primary-care market"]
+    },
+    "em": {
+      "label": "Emergency Medicine",
+      "productivityUnit": "$/hour",
+      "compMedian": 409000,
+      "compRange": "365000–460000",
+      "compP25": 365000,
+      "compP75": 460000,
+      "hourlyMedian": 285,
+      "hourlyRange": "220–310",
+      "hourlyCMG": "235–290",
+      "hourlyDemocratic": "285–365",
+      "annualHours": "1400–1560",
+      "sources": ["SalaryDr EM 2026 (n=125)", "Ava Health EM 2026", "MedMoneyGuide EM 2026", "ACEP survey cited in trade press"],
+      "workflowHints": [
+        "Normalize offers to $/hour × expected hours before comparing to wRVU-model specialties.",
+        "Document boarding burden and patients/hour in Volume — affects RVU vs hourly model choice.",
+        "1099 locums: self-employment tax and tail are your problem — use contract rows."
+      ],
+      "redFlags": ["CMG hourly below $235 in non-rural market", "RVU bonus with <1.7 pts/hr throughput", "Hospital contract loss without severance"]
+    }
+  }
+}

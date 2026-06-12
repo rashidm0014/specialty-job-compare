@@ -1,0 +1,22 @@
+{
+  "region": "National",
+  "source": "Enter your licensed source (e.g. internal, MGMA)",
+  "year": 2026,
+  "setting": "All",
+  "notes": "Template only — enter values you have rights to use.",
+  "compP25": 0,
+  "compP50": 0,
+  "compP75": 0,
+  "compP90": 0,
+  "signOnP50": 0,
+  "callPayP50": 0,
+  "prodP25": 0,
+  "prodP50": 0,
+  "prodP75": 0,
+  "prodP90": 0,
+  "compPerUnitP50": 0,
+  "compPerUnitP75": 0,
+  "appSupervisionP50": 0,
+  "qualityBonusP50": 0,
+  "qualityBonusP75": 0
+}

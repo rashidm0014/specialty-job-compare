@@ -1,0 +1,175 @@
+{
+  "name": "Anesthesiology",
+  "emoji": "😷",
+  "tag": "Call model, ASA units, supervision ratio, CRNA/AA model, cases, post-call recovery, group stability.",
+  "checklist": [
+    "General OR",
+    "OB anesthesia",
+    "Regional anesthesia/blocks",
+    "Cardiac anesthesia",
+    "Pediatric anesthesia",
+    "Neuro anesthesia",
+    "Trauma coverage",
+    "ASC/endoscopy coverage",
+    "Orthopedic blocks",
+    "Acute pain service",
+    "Pre-op clinic",
+    "PACU coverage",
+    "CRNA supervision",
+    "AA supervision",
+    "Solo cases",
+    "Medical direction billing support",
+    "Post-call day off",
+    "Home call",
+    "In-house call",
+    "Night float",
+    "Late-room policy",
+    "Holiday policy",
+    "Leadership/medical director path",
+    "Partnership/governance path",
+    "Malpractice/tail clarity"
+  ],
+  "volume": [
+    "OR days/week",
+    "Clinical weeks/year",
+    "Call nights/month",
+    "Weekend calls/month",
+    "Holiday calls/year",
+    "Post-call days/month",
+    "ASA units/year",
+    "ASA units/shift",
+    "Cases/day",
+    "Supervision ratio",
+    "Solo case percentage",
+    "OB shifts/month",
+    "ASC days/month",
+    "Extra shifts/month",
+    "Vacation weeks",
+    "Late rooms/month",
+    "Medical director hours/stipend",
+    "Non-compete radius (miles)",
+    "Non-compete duration (months)",
+    "Tail coverage (who pays / est $)"
+  ],
+  "questions": [
+    "What is the call schedule and post-call policy?",
+    "What is the CRNA/AA supervision ratio?",
+    "Is compensation salary, unit-based, or blended?"
+  ],
+  "samples": [
+    {
+      "name": "Hospital Anesthesia Group",
+      "location": "Community hospital",
+      "jobType": "Hospital-employed",
+      "status": "Researching",
+      "baseSalary": 500000,
+      "commute": 20,
+      "clinicalFit": 7,
+      "compFit": 7,
+      "lifestyleFit": 6,
+      "riskFit": 7,
+      "strategicFit": 7,
+      "collabFit": 7,
+      "pros": "Stable hospital support and predictable benefits.",
+      "cons": "Clarify call, post-call recovery, staffing shortages, and extra shift pay."
+    },
+    {
+      "name": "Private Anesthesia Partnership Track",
+      "location": "Regional private group",
+      "jobType": "Private practice",
+      "status": "Researching",
+      "baseSalary": 450000,
+      "hasEquity": true,
+      "equityTimeline": "Partnership year 2-3",
+      "commute": 30,
+      "clinicalFit": 8,
+      "compFit": 8,
+      "lifestyleFit": 6,
+      "riskFit": 6,
+      "strategicFit": 8,
+      "collabFit": 7,
+      "pros": "Governance and distribution upside.",
+      "cons": "Hospital contract risk, buy-in, call intensity, and tail must be understood."
+    },
+    {
+      "name": "ASC-Focused Anesthesia Role",
+      "location": "Ambulatory surgery centers",
+      "jobType": "ASC / outpatient",
+      "status": "Researching",
+      "baseSalary": 425000,
+      "commute": 25,
+      "clinicalFit": 7,
+      "compFit": 6,
+      "lifestyleFit": 9,
+      "riskFit": 7,
+      "strategicFit": 6,
+      "collabFit": 7,
+      "pros": "Lifestyle, predictable daytime schedule.",
+      "cons": "Lower upside and multisite travel possible."
+    }
+  ],
+  "expandedQuestions": {
+    "Compensation": [
+      "Is compensation salary, ASA unit-based, call-stipend-based, shift-based, or blended?",
+      "Are extra shifts, late rooms, weekends, holidays, OB call, cardiac call, or backup call paid separately?",
+      "Is compensation pooled equally or tied to individual productivity?",
+      "Are stipends from the hospital passed through to physicians?",
+      "Are there sign-on, retention, relocation, or loan repayment bonuses?",
+      "What happens to income if rooms close, staffing is short, or hospital volume drops?"
+    ],
+    "Clinical model": [
+      "What is the CRNA/AA supervision or medical direction ratio by site?",
+      "How much work is solo versus medical direction?",
+      "What cases are required: OB, cardiac, peds, trauma, neuro, regional, ASC, endoscopy?",
+      "How many sites are covered, and is travel between sites required?",
+      "What is the pre-op, PACU, acute pain, block, and airway support structure?"
+    ],
+    "APP / CRNA / AA supervision": [
+      "Is CRNA/AA supervision compensated separately or built into salary?",
+      "Is pay different for 1:2, 1:3, or 1:4 supervision?",
+      "Who handles breaks, handoffs, emergency coverage, and documentation?",
+      "Are medical direction billing requirements supported operationally?",
+      "Who owns liability for supervised anesthetics?"
+    ],
+    "Quality bonus": [
+      "Are metrics tied to on-time starts, cancellations, patient satisfaction, complications, block success, documentation, or throughput?",
+      "What is the maximum quality bonus and historical average payout?",
+      "Are quality metrics individual, group, hospital, or department-wide?"
+    ],
+    "Lifestyle / call": [
+      "How many calls per month, nights, weekends, and holidays?",
+      "Is post-call day off protected?",
+      "Is there night float?",
+      "How are vacations assigned and protected?",
+      "Can physicians reduce call later in career?"
+    ],
+    "Contract risk": [
+      "Is malpractice occurrence or claims-made, and who pays tail?",
+      "What happens if the hospital contract changes or is lost?",
+      "Is there a noncompete or nonsolicit?",
+      "Are stipend, sign-on, relocation, or loan payments clawed back?",
+      "Is partnership or governance available?"
+    ]
+  },
+  "scoringContext": {
+    "Clinical Fit": [
+      "Case mix, acuity, regional/cardiac/OB/peds expectations match training.",
+      "CRNA/AA supervision model is safe and operationally supported."
+    ],
+    "Compensation Upside": [
+      "ASA units, call stipends, extra shifts, late rooms, and hospital stipends are transparent."
+    ],
+    "Lifestyle Fit": [
+      "Call frequency, post-call recovery, nights, holidays, and vacation process are sustainable."
+    ],
+    "Risk Safety": [
+      "Hospital contract risk, tail, noncompete, and clawbacks are acceptable."
+    ],
+    "Strategic Fit": [
+      "Governance, partnership, leadership, and subspecialty development paths exist."
+    ],
+    "Collaborative Fit": [
+      "Surgeons, OR leadership, CRNAs/AAs, PACU, and hospital administration collaborate well."
+    ]
+  }
+}

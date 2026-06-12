@@ -1,0 +1,175 @@
+{
+  "name": "Emergency Medicine",
+  "emoji": "🚑",
+  "tag": "Hourly/shift/RVU pay, nights, acuity, boarding, APP supervision, throughput metrics, group stability.",
+  "checklist": [
+    "High-acuity ED",
+    "Trauma designation",
+    "Pediatric ED comfort",
+    "Critical care procedures",
+    "Ultrasound availability",
+    "Airway support",
+    "Central lines/chest tubes",
+    "STEMI pathway",
+    "Stroke pathway",
+    "Sepsis pathway",
+    "Psych/boarding workflow",
+    "Transfer center support",
+    "Specialist backup",
+    "Scribes",
+    "Strong nursing ratio",
+    "APP supervision",
+    "Fast track/vertical flow",
+    "Night coverage",
+    "Holiday coverage",
+    "Democratic group",
+    "CMG model",
+    "Hospital-employed model",
+    "Malpractice/tail clarity",
+    "Schedule transparency"
+  ],
+  "volume": [
+    "Clinical hours/year",
+    "Hourly rate",
+    "Shifts/month",
+    "Nights/month",
+    "Weekends/month",
+    "Holidays/year",
+    "Patients/hour",
+    "RVUs/hour",
+    "Annual wRVUs",
+    "Admission rate",
+    "LWBS rate",
+    "Boarding hours",
+    "Psych holds/day",
+    "APPs supervised/shift",
+    "Scribe coverage %",
+    "Critical procedures/month",
+    "Extra shifts/month",
+    "Non-compete radius (miles)",
+    "Non-compete duration (months)",
+    "Tail coverage (who pays / est $)"
+  ],
+  "questions": [
+    "Is pay hourly, RVU, or hybrid?",
+    "How many nights/weekends/holidays?",
+    "Are APPs supervised and is supervision paid?"
+  ],
+  "samples": [
+    {
+      "name": "Hospital-Employed ED",
+      "location": "Community hospital",
+      "jobType": "Hospital-employed",
+      "status": "Researching",
+      "baseSalary": 390000,
+      "commute": 20,
+      "clinicalFit": 7,
+      "compFit": 7,
+      "lifestyleFit": 6,
+      "riskFit": 8,
+      "strategicFit": 7,
+      "collabFit": 7,
+      "pros": "Stable benefits and direct hospital alignment.",
+      "cons": "Boarding, APP supervision, metrics, and schedule burden need detail."
+    },
+    {
+      "name": "Democratic EM Group",
+      "location": "Regional ED contract",
+      "jobType": "Democratic group",
+      "status": "Researching",
+      "baseSalary": 350000,
+      "hasEquity": true,
+      "equityTimeline": "Partnership/shareholder after 1-2 years",
+      "commute": 35,
+      "clinicalFit": 8,
+      "compFit": 8,
+      "lifestyleFit": 6,
+      "riskFit": 6,
+      "strategicFit": 8,
+      "collabFit": 8,
+      "pros": "Governance and distribution upside.",
+      "cons": "Hospital contract loss, tail, and nights/weekends must be reviewed."
+    },
+    {
+      "name": "Locums/1099 EM Role",
+      "location": "Multiple sites",
+      "jobType": "Locums / 1099",
+      "status": "Researching",
+      "baseSalary": 0,
+      "callPay": 0,
+      "commute": 60,
+      "clinicalFit": 6,
+      "compFit": 8,
+      "lifestyleFit": 5,
+      "riskFit": 5,
+      "strategicFit": 5,
+      "collabFit": 5,
+      "pros": "High hourly income and flexibility.",
+      "cons": "No benefits, travel, malpractice/tail, and schedule instability."
+    }
+  ],
+  "expandedQuestions": {
+    "Compensation": [
+      "Is pay hourly, RVU-based, shift-based, salary, or hybrid?",
+      "What are the day, evening, night, weekend, holiday, and backup rates?",
+      "Are RVUs paid on top of hourly or included?",
+      "Are extra shifts, surge shifts, retention, sign-on, relocation, or loan repayment paid?",
+      "Are there clawbacks if I leave early?"
+    ],
+    "Clinical model": [
+      "What is expected patients/hour by shift and site?",
+      "What is acuity mix, admission rate, pediatric volume, trauma designation, and critical-care burden?",
+      "How bad is boarding, psych holding, transfer delay, and hallway medicine?",
+      "What specialist backup is available and actually responsive?",
+      "Are scribes, strong nursing, ultrasound, airway support, and procedure supplies available?"
+    ],
+    "APP supervision": [
+      "How many APPs are supervised per shift?",
+      "Is APP supervision compensated separately? hourly stipend, RVU share, chart fee, or built into rate?",
+      "Who signs APP charts and owns liability?",
+      "Are APPs independent fast-track clinicians or do they require real-time attending involvement?",
+      "Is APP productivity counted toward physician, APP, or group?"
+    ],
+    "Quality bonus": [
+      "Are bonuses tied to door-to-doc, LWBS, patient satisfaction, sepsis/stroke/STEMI metrics, documentation, throughput, or admission decisions?",
+      "What is max quality bonus and historical average payout?",
+      "Are metrics physician-controllable or mostly hospital/system dependent?",
+      "Can metrics reduce compensation or only add upside?"
+    ],
+    "Lifestyle / schedule": [
+      "How many nights, weekends, holidays, and swing shifts are required?",
+      "Is scheduling democratic, seniority-based, random, or controlled by leadership?",
+      "Are post-night recovery days protected?",
+      "Can shifts be reduced without losing benefits?",
+      "How far in advance is the schedule released?"
+    ],
+    "Group / contract risk": [
+      "Is this hospital-employed, CMG, democratic group, academic, locums, or private contract group?",
+      "Is partnership available? timeline, buy-in, distribution, voting rights?",
+      "Can the hospital contract be lost and what happens to clinicians if it changes?",
+      "Independent contractor or W-2?",
+      "Claims-made or occurrence malpractice, and who pays tail?",
+      "Are there noncompetes, nonsolicits, or restrictive covenants?"
+    ]
+  },
+  "scoringContext": {
+    "Clinical Fit": [
+      "Acuity, trauma level, boarding, psych holds, and specialist backup match comfort level."
+    ],
+    "Compensation Upside": [
+      "Hourly/RVU/hybrid pay, nights/weekends/holidays, APP supervision, and extra shifts are quantified."
+    ],
+    "Lifestyle Fit": [
+      "Nights, weekends, holidays, schedule control, and recovery time are sustainable."
+    ],
+    "Risk Safety": [
+      "Tail, contractor status, hospital contract loss, noncompete, and clawbacks are acceptable."
+    ],
+    "Strategic Fit": [
+      "Group governance, leadership, medical director path, and site stability build value."
+    ],
+    "Collaborative Fit": [
+      "Nursing, APPs, scribes, consultants, hospitalists, and administrators are responsive."
+    ]
+  }
+}

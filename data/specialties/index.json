@@ -1,0 +1,66 @@
+{
+  "pain": {
+    "key": "pain",
+    "name": "Interventional Pain",
+    "emoji": "💉",
+    "tag": "Procedure mix, ASC/equity, wRVUs, referral base, APP leverage, quality/risk, contract terms.",
+    "checklistCount": 28,
+    "volumeCount": 21
+  },
+  "peds": {
+    "key": "peds",
+    "name": "Outpatient Pediatrics",
+    "emoji": "🧸",
+    "tag": "Panel size, visits/day, call, newborns, inbox burden, quality metrics, APPs, schedule, compensation.",
+    "checklistCount": 23,
+    "volumeCount": 20
+  },
+  "anesthesia": {
+    "key": "anesthesia",
+    "name": "Anesthesiology",
+    "emoji": "😷",
+    "tag": "Call model, ASA units, supervision ratio, CRNA/AA model, cases, post-call recovery, group stability.",
+    "checklistCount": 25,
+    "volumeCount": 20
+  },
+  "derm": {
+    "key": "derm",
+    "name": "Dermatology",
+    "emoji": "🧴",
+    "tag": "Collections, cosmetics, Mohs/pathology, APP leverage, clinic support, partnership, ancillary revenue.",
+    "checklistCount": 22,
+    "volumeCount": 20
+  },
+  "radiology": {
+    "key": "radiology",
+    "name": "Radiology",
+    "emoji": "🩻",
+    "tag": "RVUs/shift, nights, call, modality mix, remote work, partnership, contract stability.",
+    "checklistCount": 22,
+    "volumeCount": 19
+  },
+  "psych": {
+    "key": "psych",
+    "name": "Psychiatry",
+    "emoji": "🧠",
+    "tag": "Visit length, inpatient/outpatient mix, no-shows, telehealth, call, APP supervision, interventional services.",
+    "checklistCount": 22,
+    "volumeCount": 19
+  },
+  "primary": {
+    "key": "primary",
+    "name": "Primary Care / Family Medicine",
+    "emoji": "🩺",
+    "tag": "Panel, visits/day, inbox, care team, quality/value-based bonus, call, APP supervision, schedule.",
+    "checklistCount": 24,
+    "volumeCount": 20
+  },
+  "em": {
+    "key": "em",
+    "name": "Emergency Medicine",
+    "emoji": "🚑",
+    "tag": "Hourly/shift/RVU pay, nights, acuity, boarding, APP supervision, throughput metrics, group stability.",
+    "checklistCount": 24,
+    "volumeCount": 20
+  }
+}

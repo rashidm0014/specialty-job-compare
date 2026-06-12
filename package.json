@@ -1,0 +1,11 @@
+{
+  "name": "specialty-job-compare",
+  "version": "5.5.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "serve": "node scripts/serve.mjs",
+    "test": "node scripts/startup-test.mjs",
+    "test:http": "node scripts/startup-test.mjs --http"
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "name": "Primary Care / Family Medicine",
+  "emoji": "🩺",
+  "tag": "Panel, visits/day, inbox, care team, quality/value-based bonus, call, APP supervision, schedule.",
+  "checklist": [
+    "Adult primary care",
+    "Pediatrics optional",
+    "Women's health",
+    "Office procedures",
+    "Chronic disease management",
+    "Medicare wellness visits",
+    "Same-day access",
+    "Nursing triage",
+    "Behavioral health integration",
+    "Care management",
+    "Pharmacist support",
+    "Social work support",
+    "Scribe/MA support",
+    "Portal/inbox support",
+    "Prior authorizations",
+    "APP supervision",
+    "Hospital coverage",
+    "Nursing home coverage",
+    "Phone call",
+    "Weekend clinic",
+    "Quality metrics",
+    "Risk coding support",
+    "Panel management",
+    "Value-based care infrastructure"
+  ],
+  "volume": [
+    "Visits/day",
+    "Clinical sessions/week",
+    "Panel size",
+    "New patients/week",
+    "Follow-ups/day",
+    "Same-day slots/day",
+    "Inbox hours/week",
+    "Portal messages/day",
+    "Call nights/month",
+    "Weekend days/month",
+    "Annual wRVUs",
+    "Annual visits",
+    "Quality bonus potential",
+    "Risk coding bonus potential",
+    "APPs supervised",
+    "Ramp-up months",
+    "Admin/protected time hours",
+    "Non-compete radius (miles)",
+    "Non-compete duration (months)",
+    "Tail coverage (who pays / est $)"
+  ],
+  "questions": [
+    "What is expected panel size?",
+    "How many visits/day at full ramp?",
+    "What quality metrics determine bonus?"
+  ],
+  "samples": [
+    {
+      "name": "Health System Primary Care",
+      "location": "Suburban clinic",
+      "jobType": "Hospital-employed",
+      "status": "Researching",
+      "baseSalary": 260000,
+      "expectedWrvu": 5200,
+      "commute": 20,
+      "clinicalFit": 7,
+      "compFit": 7,
+      "lifestyleFit": 7,
+      "riskFit": 8,
+      "strategicFit": 7,
+      "collabFit": 8,
+      "pros": "Stable support and benefits.",
+      "cons": "Inbox burden, panel ramp, and quality metrics need detail."
+    },
+    {
+      "name": "Private Primary Care Group",
+      "location": "Independent group",
+      "jobType": "Private practice",
+      "status": "Researching",
+      "baseSalary": 240000,
+      "hasEquity": true,
+      "equityTimeline": "Partner discussion after 2 years",
+      "commute": 25,
+      "clinicalFit": 8,
+      "compFit": 7,
+      "lifestyleFit": 7,
+      "riskFit": 6,
+      "strategicFit": 8,
+      "collabFit": 7,
+      "pros": "Autonomy and partnership potential.",
+      "cons": "Buy-in, call, overhead, and payer mix need review."
+    },
+    {
+      "name": "Value-Based Care Clinic",
+      "location": "Medicare Advantage / value-based",
+      "jobType": "Value-based care",
+      "status": "Researching",
+      "baseSalary": 275000,
+      "hasQualityBonus": true,
+      "qualityBonusMax": 50000,
+      "commute": 30,
+      "clinicalFit": 7,
+      "compFit": 8,
+      "lifestyleFit": 7,
+      "riskFit": 6,
+      "strategicFit": 8,
+      "collabFit": 8,
+      "pros": "Lower visits/day and team support possible.",
+      "cons": "Quality/risk metrics may be complex and partly outside physician control."
+    }
+  ],
+  "expandedQuestions": {
+    "Compensation": [
+      "Is pay base guarantee, RVU, panel size, value-based care, quality bonus, or hybrid?",
+      "What is the wRVU threshold and conversion factor?",
+      "Are inbox/admin time, nursing home, hospital work, or call compensated?",
+      "Are Medicare wellness visits, chronic care management, and team-based work credited?",
+      "Are sign-on, retention, relocation, or loan repayment available?"
+    ],
+    "Clinical model": [
+      "What is expected panel size and visits/day at full ramp?",
+      "How many rooms, MAs, nurses, care managers, and scribes per clinician?",
+      "Who handles refills, forms, prior authorizations, portal messages, and results?",
+      "Is there protected admin time?",
+      "What percentage of schedule is same-day access, new patients, complex care, AWVs, or procedures?"
+    ],
+    "APP supervision": [
+      "How many APPs are on the care team?",
+      "Is supervision compensated by stipend, RVU credit, panel credit, percentage, or not at all?",
+      "Who signs charts, handles escalations, covers inbox, and owns liability?",
+      "Do APP visits affect my panel size, access metrics, or bonus?"
+    ],
+    "Quality bonus": [
+      "What metrics determine bonus: A1c, BP, cancer screening, AWV, vaccines, access, patient experience, risk coding, ED utilization, or total cost of care?",
+      "What is the maximum bonus and historical average payout?",
+      "Are targets individual, clinic-wide, or system-wide?",
+      "Are metrics adjusted for social risk, payer mix, staffing, and attribution?"
+    ],
+    "Lifestyle / call": [
+      "What is phone call frequency and nurse triage support?",
+      "Are weekends, nursing home, hospital, or home visits required?",
+      "How much inbox work occurs after hours?",
+      "Can schedule be 4-day week, part-time, or flexible?"
+    ],
+    "Contract risk": [
+      "What is the noncompete and does it restrict the whole primary-care market?",
+      "Who owns the panel if I leave?",
+      "Is tail covered?",
+      "Can productivity/quality formulas be changed unilaterally?",
+      "Are repayment obligations tied to sign-on, relocation, CME, or loan repayment?"
+    ]
+  },
+  "scoringContext": {
+    "Clinical Fit": [
+      "Panel size, visits/day, access slots, complex care, and team support are realistic."
+    ],
+    "Compensation Upside": [
+      "RVU, panel, value-based, quality, call, and inbox/admin credit are quantified."
+    ],
+    "Lifestyle Fit": [
+      "Inbox, call, weekends, admin time, and schedule flexibility are manageable."
+    ],
+    "Risk Safety": [
+      "Panel ownership, noncompete, tail, quality formula changes, and repayment are acceptable."
+    ],
+    "Strategic Fit": [
+      "Clinic location, panel growth, value-based infrastructure, and leadership options build future value."
+    ],
+    "Collaborative Fit": [
+      "MAs, nurses, APPs, behavioral health, care management, and specialists support care."
+    ]
+  }
+}

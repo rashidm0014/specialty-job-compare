@@ -1,0 +1,164 @@
+{
+  "name": "Psychiatry",
+  "emoji": "🧠",
+  "tag": "Visit length, inpatient/outpatient mix, no-shows, telehealth, call, APP supervision, interventional services.",
+  "checklist": [
+    "Outpatient psychiatry",
+    "Inpatient psychiatry",
+    "Consult-liaison",
+    "Child/adolescent",
+    "Geriatric psychiatry",
+    "Addiction/MAT",
+    "Telepsychiatry",
+    "TMS",
+    "ECT",
+    "Esketamine/ketamine",
+    "Therapy integration",
+    "Social work/case management",
+    "Crisis coverage",
+    "Call coverage",
+    "No-show protection",
+    "Controlled-substance workflow",
+    "Prior authorization support",
+    "APP supervision",
+    "Panel size clarity",
+    "Documentation/admin support",
+    "Remote/hybrid work",
+    "Moonlighting/private practice policy"
+  ],
+  "volume": [
+    "Clinical hours/week",
+    "New evaluations/week",
+    "Follow-ups/week",
+    "Patients/day",
+    "New eval length",
+    "Follow-up length",
+    "Inpatient census",
+    "Consults/day",
+    "Call nights/month",
+    "Weekend rounding days/month",
+    "Telehealth %",
+    "No-show rate",
+    "Annual wRVUs",
+    "Admin hours/week",
+    "APPs supervised",
+    "TMS/ECT/esketamine sessions",
+    "Non-compete radius (miles)",
+    "Non-compete duration (months)",
+    "Tail coverage (who pays / est $)"
+  ],
+  "questions": [
+    "What are visit lengths for new/follow-up patients?",
+    "Is telehealth allowed?",
+    "Are no-shows paid/protected?"
+  ],
+  "samples": [
+    {
+      "name": "Outpatient Psychiatry Group",
+      "location": "Hybrid outpatient",
+      "jobType": "Private practice",
+      "status": "Researching",
+      "baseSalary": 325000,
+      "commute": 15,
+      "clinicalFit": 8,
+      "compFit": 7,
+      "lifestyleFit": 8,
+      "riskFit": 7,
+      "strategicFit": 7,
+      "collabFit": 7,
+      "pros": "Hybrid flexibility and outpatient focus.",
+      "cons": "No-show protection, APP oversight, and call must be clarified."
+    },
+    {
+      "name": "Hospital Psychiatry Position",
+      "location": "Community hospital",
+      "jobType": "Hospital-employed",
+      "status": "Researching",
+      "baseSalary": 300000,
+      "commute": 25,
+      "clinicalFit": 7,
+      "compFit": 6,
+      "lifestyleFit": 6,
+      "riskFit": 8,
+      "strategicFit": 7,
+      "collabFit": 8,
+      "pros": "Stable benefits and team resources.",
+      "cons": "Consult/inpatient call and weekend burden could be heavy."
+    },
+    {
+      "name": "Telepsychiatry Role",
+      "location": "Remote",
+      "jobType": "Telehealth",
+      "status": "Researching",
+      "baseSalary": 280000,
+      "clinicalFit": 7,
+      "compFit": 6,
+      "lifestyleFit": 9,
+      "riskFit": 7,
+      "strategicFit": 6,
+      "collabFit": 6,
+      "pros": "Flexible remote work.",
+      "cons": "License burden, no-shows, telehealth restrictions, and panel ownership."
+    }
+  ],
+  "expandedQuestions": {
+    "Compensation": [
+      "Is pay salary, RVU, collections, session-based, call stipend, or hybrid?",
+      "Are no-shows paid/protected?",
+      "Are telehealth visits reimbursed the same?",
+      "Is crisis coverage, inpatient call, or consult work paid separately?",
+      "Are TMS, ECT, ketamine/esketamine, or MAT services compensated differently?"
+    ],
+    "Clinical model": [
+      "What are visit lengths for new evaluations and follow-ups?",
+      "How many patients/day are expected?",
+      "What is the outpatient/inpatient/consult-liaison/telehealth mix?",
+      "What therapy, social work, case management, and nursing support exists?",
+      "Who handles refills, prior authorizations, portal messages, and controlled-substance monitoring?"
+    ],
+    "APP supervision": [
+      "How many psych NPs/PAs are supervised?",
+      "Is supervision compensated by stipend, per visit, percent collections, or RVU credit?",
+      "Who owns liability for controlled substances, crisis calls, refills, and chart review?",
+      "Are APP panels independent or under physician oversight?"
+    ],
+    "Quality bonus": [
+      "Are metrics tied to access, PHQ/GAD documentation, hospitalization follow-up, patient satisfaction, safety planning, or medication monitoring?",
+      "What is max bonus and historical average payout?",
+      "Are metrics adjusted for acuity, no-shows, and staffing?"
+    ],
+    "Lifestyle / call": [
+      "What is after-hours call and crisis responsibility?",
+      "Is there inpatient weekend rounding?",
+      "Is telehealth/hybrid work allowed?",
+      "Is documentation/admin time protected?",
+      "How are no-shows handled in schedule and compensation?"
+    ],
+    "Contract risk": [
+      "What is the noncompete and does it restrict telehealth?",
+      "Who owns patient panels if I leave?",
+      "Is malpractice/tail covered?",
+      "Are there restrictions on outside private practice, moonlighting, or telepsych?"
+    ]
+  },
+  "scoringContext": {
+    "Clinical Fit": [
+      "Visit lengths, acuity, inpatient/outpatient/telehealth mix, and support match practice style."
+    ],
+    "Compensation Upside": [
+      "No-shows, telehealth, call, APP supervision, and TMS/ECT/MAT are compensated fairly."
+    ],
+    "Lifestyle Fit": [
+      "Call, crisis coverage, documentation, and remote flexibility are sustainable."
+    ],
+    "Risk Safety": [
+      "Noncompete, panel ownership, tail, outside practice, and controlled-substance workflows are clear."
+    ],
+    "Strategic Fit": [
+      "Niche services, telehealth, outpatient panel, and referral demand build long-term value."
+    ],
+    "Collaborative Fit": [
+      "Therapists, social workers, case managers, APPs, and inpatient teams are aligned."
+    ]
+  }
+}

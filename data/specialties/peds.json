@@ -1,0 +1,179 @@
+{
+  "name": "Outpatient Pediatrics",
+  "emoji": "🧸",
+  "tag": "Panel size, visits/day, call, newborns, inbox burden, quality metrics, APPs, schedule, compensation.",
+  "checklist": [
+    "Well-child visits",
+    "Same-day sick visits",
+    "Newborn nursery rounding",
+    "Hospital follow-up visits",
+    "ADHD/behavioral health support",
+    "Depression/anxiety screening workflow",
+    "Adolescent medicine",
+    "Asthma/allergy management",
+    "Complex care coordination",
+    "Vaccine counseling support",
+    "Lactation resources",
+    "Care management/social work",
+    "Integrated behavioral health",
+    "Interpreter/translation support",
+    "Nurse triage",
+    "After-hours phone call",
+    "Weekend clinic",
+    "School/camp forms workflow",
+    "Prior authorization support",
+    "Portal/inbox support",
+    "APP collaboration/supervision",
+    "Quality metric infrastructure",
+    "Medicaid/payer mix transparency"
+  ],
+  "volume": [
+    "Clinic sessions/week",
+    "Visits/day at full ramp",
+    "Well checks/day",
+    "Sick visits/day",
+    "New patients/week",
+    "Panel size target",
+    "Newborn rounding days/month",
+    "Call nights/month",
+    "Weekend days/month",
+    "Annual visits",
+    "Annual wRVUs",
+    "Inbox/admin hours/week",
+    "Portal messages/day",
+    "Form requests/week",
+    "APPs supervised",
+    "Quality bonus potential",
+    "Ramp-up months",
+    "Non-compete radius (miles)",
+    "Non-compete duration (months)",
+    "Tail coverage (who pays / est $)"
+  ],
+  "questions": [
+    "What is expected visits/day by year one?",
+    "Is newborn rounding required?",
+    "How is phone call compensated?"
+  ],
+  "samples": [
+    {
+      "name": "Hospital Outpatient Pediatrics",
+      "location": "Suburban clinic",
+      "jobType": "Hospital-employed",
+      "status": "Researching",
+      "baseSalary": 230000,
+      "expectedWrvu": 4500,
+      "commute": 25,
+      "clinicalFit": 7,
+      "compFit": 6,
+      "lifestyleFit": 8,
+      "riskFit": 8,
+      "strategicFit": 7,
+      "collabFit": 8,
+      "pros": "Stable employed model, benefits, lower business risk.",
+      "cons": "Clarify call, inbox burden, quality bonus, and panel ramp."
+    },
+    {
+      "name": "Private Pediatric Group",
+      "location": "Growing suburb",
+      "jobType": "Private practice",
+      "status": "Researching",
+      "baseSalary": 210000,
+      "expectedWrvu": 4800,
+      "commute": 20,
+      "hasEquity": true,
+      "equityTimeline": "Partnership discussion after 2 years",
+      "clinicalFit": 8,
+      "compFit": 7,
+      "lifestyleFit": 7,
+      "riskFit": 6,
+      "strategicFit": 8,
+      "collabFit": 8,
+      "pros": "Potential autonomy and partnership value.",
+      "cons": "Need buy-in, call sharing, overhead, and payer mix details."
+    },
+    {
+      "name": "Academic/Teaching Pediatrics Clinic",
+      "location": "University clinic",
+      "jobType": "Academic",
+      "status": "Researching",
+      "baseSalary": 200000,
+      "expectedWrvu": 3800,
+      "commute": 35,
+      "clinicalFit": 8,
+      "compFit": 5,
+      "lifestyleFit": 7,
+      "riskFit": 8,
+      "strategicFit": 8,
+      "collabFit": 9,
+      "pros": "Teaching, complex care resources, academic brand.",
+      "cons": "Lower compensation and possible bureaucracy."
+    }
+  ],
+  "expandedQuestions": {
+    "Compensation": [
+      "Is salary guaranteed and for how long?",
+      "Is there productivity, panel, quality, call, newborn-rounding, or patient-access bonus?",
+      "What is the wRVU or encounter expectation at full ramp?",
+      "Are phone call, weekend clinic, newborn nursery, or hospital rounding paid separately?",
+      "How are no-shows, vaccine visits, nurse visits, forms, and portal work handled in productivity?",
+      "Are sign-on, relocation, CME, board fees, licensing, and loan repayment available?"
+    ],
+    "Clinical model": [
+      "What is expected visits/day at full ramp?",
+      "What is the schedule template for well checks, sick visits, newborns, ADHD, behavioral health, and complex care?",
+      "How many rooms, MAs, nurses, and front-desk staff per physician?",
+      "Who handles forms, prior authorizations, refill requests, portal messages, and school/camp paperwork?",
+      "Is newborn nursery rounding required, optional, or compensated separately?",
+      "Are lactation, behavioral health, care management, interpreters, and vaccine support available?",
+      "What is the payer mix and Medicaid percentage?"
+    ],
+    "APP supervision": [
+      "Will NPs/PAs report to or collaborate with me?",
+      "How many APPs would I supervise?",
+      "Is supervision compensated by stipend, RVU credit, percentage of collections, chart-review fee, or not at all?",
+      "Who signs charts, handles escalations, covers inbox, and manages liability?",
+      "Are APP visits counted toward my panel access or productivity expectations?"
+    ],
+    "Quality bonus": [
+      "What metrics drive quality bonus: vaccines, well-child rates, access, HEDIS, asthma care, depression screening, patient experience, or portal response time?",
+      "What is the maximum quality bonus and historical average payout?",
+      "Are targets adjusted for patient population, Medicaid mix, staffing shortages, and no-show rates?",
+      "Are quality metrics individual, clinic-wide, or system-wide?"
+    ],
+    "Lifestyle / call": [
+      "How often is phone call? Is nurse triage first-line?",
+      "Are nights, weekends, holidays, and newborn rounding required before clinic?",
+      "Is admin time protected?",
+      "Is there flexibility for part-time, 4-day week, or school pickup hours?",
+      "How much inbox work remains after hours?"
+    ],
+    "Contract risk": [
+      "What is the noncompete and does it restrict outpatient pediatrics broadly?",
+      "Is malpractice occurrence or claims-made, and who pays tail?",
+      "Are bonuses/sign-on/CME/relocation repayable?",
+      "What happens to panel ownership if I leave?",
+      "Are productivity targets changed unilaterally?"
+    ]
+  },
+  "scoringContext": {
+    "Clinical Fit": [
+      "Schedule template supports safe well/sick/behavioral/complex care.",
+      "Staffing handles vaccines, forms, triage, prior auths, and portal messages."
+    ],
+    "Compensation Upside": [
+      "Call, newborns, panel growth, quality bonus, and productivity are transparent."
+    ],
+    "Lifestyle Fit": [
+      "Phone call, weekend clinic, nursery rounding, and after-hours inbox are manageable."
+    ],
+    "Risk Safety": [
+      "Noncompete, tail, panel ownership, and unilateral productivity changes are clear."
+    ],
+    "Strategic Fit": [
+      "Clinic location, patient panel, and system reputation help long-term practice growth."
+    ],
+    "Collaborative Fit": [
+      "Nurses, behavioral health, lactation, care managers, APPs, and specialists are accessible."
+    ]
+  }
+}

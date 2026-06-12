@@ -1,0 +1,19 @@
+{
+  "productName": "Specialty Job Compare Pro",
+  "pricing": {
+    "monthly": { "label": "$12 / month", "amount": 1200, "interval": "month" },
+    "annual": { "label": "$99 / year", "amount": 9900, "interval": "year", "recommended": true }
+  },
+  "stripePaymentLink": "",
+  "stripeAnnualPaymentLink": "",
+  "successReturnParam": "upgrade",
+  "cloudBackupUrl": "",
+  "freeSpecialties": ["pain", "peds"],
+  "limits": {
+    "freeMaxLeadsPerSpecialty": 3,
+    "freeMaxCompareJobs": 2,
+    "freeHistoryDays": 30,
+    "freeHistoryEntries": 100
+  },
+  "devLicenseKeys": ["DEMO-PRO-2026", "SJC-TEST-PRO"]
+}

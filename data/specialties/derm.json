@@ -1,0 +1,167 @@
+{
+  "name": "Dermatology",
+  "emoji": "🧴",
+  "tag": "Collections, cosmetics, Mohs/pathology, APP leverage, clinic support, partnership, ancillary revenue.",
+  "checklist": [
+    "General medical dermatology",
+    "Cosmetic dermatology",
+    "Mohs access/pathway",
+    "Excisions/procedural derm",
+    "Phototherapy",
+    "Patch testing",
+    "Biologics support",
+    "Accutane/iPLEDGE workflow",
+    "Pathology relationship",
+    "In-house pathology revenue",
+    "Laser/aesthetic devices",
+    "Retail product revenue",
+    "Scribe support",
+    "MA/procedure assistant support",
+    "APP supervision",
+    "Teledermatology",
+    "Prior authorization support",
+    "Referral network",
+    "Partnership path",
+    "Real estate/ancillary income",
+    "Noncompete clarity",
+    "Online review/social media ownership"
+  ],
+  "volume": [
+    "Clinic days/week",
+    "Patients/day",
+    "New patients/week",
+    "Procedures/day",
+    "Biopsies/day",
+    "Cosmetic patients/week",
+    "Laser/device sessions/month",
+    "Collections/year",
+    "Net collections %",
+    "Overhead allocation",
+    "APPs supervised",
+    "MA/scribe ratio",
+    "Waitlist length",
+    "No-show rate",
+    "Ramp-up months",
+    "Partnership years",
+    "Ancillary distributions",
+    "Non-compete radius (miles)",
+    "Non-compete duration (months)",
+    "Tail coverage (who pays / est $)"
+  ],
+  "questions": [
+    "Is compensation base, collections %, or hybrid?",
+    "Do cosmetics and pathology revenue count?",
+    "Is APP supervision required and paid?"
+  ],
+  "samples": [
+    {
+      "name": "Dermatology Private Group",
+      "location": "Suburban growth market",
+      "jobType": "Private practice",
+      "status": "Researching",
+      "baseSalary": 375000,
+      "commute": 20,
+      "hasEquity": true,
+      "clinicalFit": 8,
+      "compFit": 8,
+      "lifestyleFit": 8,
+      "riskFit": 6,
+      "strategicFit": 8,
+      "collabFit": 7,
+      "pros": "Collections and partnership upside.",
+      "cons": "Noncompete, overhead allocation, and ancillary ownership need scrutiny."
+    },
+    {
+      "name": "Hospital Dermatology Clinic",
+      "location": "Health system clinic",
+      "jobType": "Hospital-employed",
+      "status": "Researching",
+      "baseSalary": 425000,
+      "expectedWrvu": 6500,
+      "commute": 30,
+      "clinicalFit": 7,
+      "compFit": 7,
+      "lifestyleFit": 8,
+      "riskFit": 8,
+      "strategicFit": 7,
+      "collabFit": 8,
+      "pros": "Stable benefits and referral base.",
+      "cons": "Less cosmetics/ancillary upside; productivity template must be understood."
+    },
+    {
+      "name": "Cosmetic-Heavy Derm Practice",
+      "location": "Affluent metro",
+      "jobType": "Private practice",
+      "status": "Researching",
+      "baseSalary": 300000,
+      "commute": 25,
+      "clinicalFit": 7,
+      "compFit": 8,
+      "lifestyleFit": 8,
+      "riskFit": 5,
+      "strategicFit": 8,
+      "collabFit": 7,
+      "pros": "High cosmetic revenue potential.",
+      "cons": "Need clarity on device ownership, collections split, marketing expectations."
+    }
+  ],
+  "expandedQuestions": {
+    "Compensation": [
+      "Is pay base, collections percentage, RVU, net collections, or hybrid?",
+      "What percentage of collections is paid and what is excluded?",
+      "Do cosmetics, lasers, pathology, retail products, and APP-supervised revenue count toward compensation?",
+      "How is overhead allocated?",
+      "What is the historical collections range for physicians with similar schedules?"
+    ],
+    "Clinical model": [
+      "How many patients/day and procedures/day are expected?",
+      "How many rooms, MAs, scribes, and procedure assistants per dermatologist?",
+      "What is the mix of medical derm, cosmetics, Mohs, excisions, biologics, and telederm?",
+      "Who handles prior authorizations, biologics, pathology tracking, and callbacks?",
+      "Is there control over template length and cosmetic scheduling?"
+    ],
+    "APP supervision": [
+      "How many APPs would I supervise?",
+      "Is APP supervision compensated by stipend, percentage of collections, RVU credit, chart fee, or not at all?",
+      "Who reviews charts, handles complications, biopsies, callbacks, and malpractice risk?",
+      "Are APP patients part of my panel, the group panel, or the APP's panel?"
+    ],
+    "Quality bonus": [
+      "Are metrics tied to access, biopsy follow-up, patient satisfaction, documentation, medication safety, or referral retention?",
+      "What is max quality bonus and historical payout?",
+      "Are targets individual or clinic-wide?"
+    ],
+    "Partnership / ancillary": [
+      "Is partnership available and what is the buy-in?",
+      "Is there real estate, pathology, cosmetic-device, retail, or management-company income?",
+      "Who owns cosmetic revenue and device fees?",
+      "What happens to collections/partnership if I leave?"
+    ],
+    "Contract risk": [
+      "What is the noncompete radius and does it include cosmetics/Mohs/telederm?",
+      "Who pays tail?",
+      "Are patients, referral sources, online reviews, and social media accounts restricted after departure?",
+      "Are there repayment obligations or revenue carve-outs?"
+    ]
+  },
+  "scoringContext": {
+    "Clinical Fit": [
+      "Medical/cosmetic/procedural mix matches goals and support staffing is adequate."
+    ],
+    "Compensation Upside": [
+      "Collections %, cosmetics, pathology, devices, APP revenue, and overhead are transparent."
+    ],
+    "Lifestyle Fit": [
+      "Patients/day, documentation, callbacks, and cosmetic schedule are sustainable."
+    ],
+    "Risk Safety": [
+      "Noncompete, patient restrictions, tail, collections exclusions, and repayment terms are acceptable."
+    ],
+    "Strategic Fit": [
+      "Partnership, brand, cosmetic/device growth, and referral demand build future value."
+    ],
+    "Collaborative Fit": [
+      "MAs, scribes, APPs, pathologists, Mohs, and management support physician efficiency."
+    ]
+  }
+}

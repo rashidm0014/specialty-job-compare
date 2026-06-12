@@ -1,0 +1,50 @@
+{
+  "version": "1.0",
+  "title": "Offer diligence workflow",
+  "subtitle": "Use existing tabs to document contract risk before you score Risk Safety.",
+  "steps": [
+    {
+      "id": "contract-questions",
+      "title": "Answer Contract risk diligence",
+      "tab": "questions",
+      "detail": "Open Questions and complete the Contract risk (or Group/contract risk) group for every lead. Cover non-compete radius/duration/scope, malpractice type, tail payer, termination without cause, and repayment clawbacks."
+    },
+    {
+      "id": "volume-contract",
+      "title": "Quantify terms in Volume",
+      "tab": "volume",
+      "detail": "Enter numbers in the contract rows at the bottom of Volume: non-compete miles, duration in months, and tail estimate. Example: \"25 mi / 18 mo\" and \"Physician-paid tail ~$45k claims-made\"."
+    },
+    {
+      "id": "benchmarks",
+      "title": "Compare to benchmarks",
+      "tab": "benchmarks",
+      "detail": "Enter licensed MGMA/AMGA/internal data in Benchmarks, or use community reference ranges as a sanity check — then compare each lead's recurring comp and productivity unit to median."
+    },
+    {
+      "id": "followup",
+      "title": "Log deal-breakers in Pros/Cons",
+      "tab": "dashboard",
+      "detail": "Put non-negotiable contract issues in Cons and Follow-up questions on each lead. These surface in Compare, Report, and the negotiation letter."
+    },
+    {
+      "id": "risk-score",
+      "title": "Score Risk Safety last",
+      "tab": "dashboard",
+      "detail": "Only set Risk Safety (riskFit) after contract diligence is documented. Use 4–6 when terms need attorney review; 7+ only when non-compete, tail, termination, and clawbacks are acceptable for your market."
+    }
+  ],
+  "contractVolumeFields": [
+    "Non-compete radius (miles)",
+    "Non-compete duration (months)",
+    "Tail coverage (who pays / est $)"
+  ],
+  "universalContractNorms": {
+    "source": "Physician Side Gigs community database (2023–2025); illustrative only",
+    "noncompeteMilesMedian": 15,
+    "noncompeteMilesAverage": 20,
+    "noncompeteMonthsMedian": 18,
+    "noncompeteMonthsCommon": "12–24 months; 10-mile radius commonly reported",
+    "tailNote": "Claims-made departure tail often $10k–$100k+ depending on specialty and state; confirm who pays on voluntary vs involuntary exit."
+  }
+}
