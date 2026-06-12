@@ -77,7 +77,7 @@ assert(phase4.includes("collectRedFlags"), "phase4.js includes red flag engine")
 assert(phase4.includes("tryLoadShareView"), "phase4.js includes team read-only share loader");
 assert(phase4.includes("importBenchmarkTemplate"), "phase4.js includes benchmark template import");
 
-assert(sw.includes("sjc-v5.5.0"), "service worker cache bumped to v5.5.0");
+assert(sw.includes("sjc-v5.5.2"), "service worker cache bumped to v5.5.2");
 assert(fs.existsSync(path.join(root, "data/workflow-guide.json")), "workflow-guide.json exists");
 assert(fs.existsSync(path.join(root, "data/community-benchmarks.json")), "community-benchmarks.json exists");
 assert(read("workflow-guide.js").includes("initWorkflowGuide"), "workflow-guide.js exports init pipeline hook");

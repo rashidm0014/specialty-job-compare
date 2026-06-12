@@ -1,5 +1,5 @@
 /* Specialty Job Compare — offline shell cache */
-const CACHE = "sjc-v5.5.0";
+const CACHE = "sjc-v5.5.2";
 const SHELL = [
   "./",
   "./index.html",

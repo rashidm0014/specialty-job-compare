@@ -2,7 +2,7 @@
   "name": "Specialty Job Compare",
   "short_name": "Job Compare",
   "description": "Compare physician job offers by specialty with benchmarks, scoring, and negotiation reports.",
-  "start_url": "./",
+  "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
   "background_color": "#f4f0e8",

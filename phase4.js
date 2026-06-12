@@ -415,12 +415,71 @@
     }
   }
 
+  function stripShareQueryFromUrl() {
+    const params = new URLSearchParams(location.search);
+    if (!params.has("share")) return;
+    params.delete("share");
+    const next = params.toString();
+    history.replaceState({}, "", location.pathname + (next ? "?" + next : "") + location.hash);
+  }
+
+  function clearReadOnlyShareMode() {
+    window.isReadOnlyShare = false;
+    document.body.classList.remove("read-only-share");
+    const banner = $("shareReadonlyBanner");
+    if (banner) banner.hidden = true;
+    if (currentSpec && $("tool") && !$("tool").hidden) {
+      ["addLeadBtn", "addBenchmarkBtn", "importTemplateBtn", "resetBtn", "clearHistoryBtn"].forEach((id) => {
+        const el = $(id);
+        if (el) el.hidden = false;
+      });
+      ["exportBtn", "importBtn", "shareBtn"].forEach((id) => {
+        const el = $(id);
+        if (el) el.hidden = false;
+      });
+      document.querySelectorAll("#leadForm button[type=submit], #deleteLeadBtn, #deleteBenchBtn").forEach((el) => {
+        el.hidden = false;
+        el.disabled = false;
+      });
+    }
+  }
+
+  async function exitReadOnlyShare() {
+    sessionStorage.setItem("sjc-skip-share", "1");
+    stripShareQueryFromUrl();
+    clearReadOnlyShareMode();
+    currentSpec = null;
+    $("home").hidden = false;
+    $("tool").hidden = true;
+    ["homeBtn", "exportBtn", "importBtn", "shareBtn", "printBtn"].forEach((id) => {
+      const el = $(id);
+      if (el) el.hidden = true;
+    });
+    $("appTitle").textContent = "Specialty Job Compare";
+    await load();
+    renderHome();
+    toast("Full app restored — your saved data is back.", "success");
+  }
+
   function enableReadOnlyShare(label) {
     window.isReadOnlyShare = true;
     document.body.classList.add("read-only-share");
     const banner = $("shareReadonlyBanner");
     const lbl = $("shareReadonlyLabel");
-    if (banner) banner.hidden = false;
+    if (banner) {
+      banner.hidden = false;
+      let exitBtn = $("shareReadonlyExit");
+      if (!exitBtn) {
+        exitBtn = e("button", {
+          type: "button",
+          className: "btn btn-ghost share-readonly-exit",
+          id: "shareReadonlyExit",
+          textContent: "Open full app",
+          onclick: () => exitReadOnlyShare(),
+        });
+        banner.append(exitBtn);
+      }
+    }
     if (lbl) lbl.textContent = label || "Shared workspace — editing disabled.";
     ["addLeadBtn", "addBenchmarkBtn", "importTemplateBtn", "resetBtn", "clearHistoryBtn", "importBtn", "exportBtn"].forEach((id) => {
       const el = $(id);
@@ -435,17 +494,29 @@
   async function tryLoadShareView() {
     const params = new URLSearchParams(location.search);
     const token = params.get("share");
-    if (!token) return false;
+    if (!token) {
+      clearReadOnlyShareMode();
+      return false;
+    }
+    if (sessionStorage.getItem("sjc-skip-share") === "1") {
+      stripShareQueryFromUrl();
+      clearReadOnlyShareMode();
+      return false;
+    }
     let payload;
     try {
       payload = decodeSharePayload(token);
     } catch (err) {
       console.error(err);
-      toast("Invalid or corrupted share link.", "error");
+      stripShareQueryFromUrl();
+      clearReadOnlyShareMode();
+      toast("Invalid share link — opening your normal app.", "info");
       return false;
     }
     if (!payload?.pkg?.payload?.state || !payload.spec) {
-      toast("Share link is missing workspace data.", "error");
+      stripShareQueryFromUrl();
+      clearReadOnlyShareMode();
+      toast("Share link incomplete — opening your normal app.", "info");
       return false;
     }
     const imported = await cleanState(payload.pkg.payload.state);
@@ -629,6 +700,8 @@
   window.renderScoreInputs = renderScoreInputs;
   window.initPhase4 = initPhase4;
   window.tryLoadShareView = tryLoadShareView;
+  window.exitReadOnlyShare = exitReadOnlyShare;
+  window.clearReadOnlyShareMode = clearReadOnlyShareMode;
   window.createTeamShareLink = createTeamShareLink;
   window.copyTeamShareLink = copyTeamShareLink;
   window.importBenchmarkTemplate = importBenchmarkTemplate;

@@ -1710,13 +1710,17 @@ body.printing-watermarked #offerReport::after {
 }
 body.is-offline .status-pill.saved { opacity: 0.65; }
 
-.share-readonly-banner {
+.share-readonly-banner[hidden] {
+  display: none !important;
+}
+
+.share-readonly-banner:not([hidden]) {
+  display: flex;
   position: fixed;
   left: 50%;
   bottom: 18px;
   transform: translateX(-50%);
   z-index: 120;
-  display: flex;
   align-items: center;
   gap: 10px;
   padding: 10px 16px;
@@ -1727,6 +1731,17 @@ body.is-offline .status-pill.saved { opacity: 0.65; }
   font-size: 0.88rem;
 }
 .share-readonly-banner strong { font-weight: 700; }
+.share-readonly-exit {
+  margin-left: 8px;
+  padding: 6px 12px;
+  font-size: 0.82rem;
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  border-radius: 99px;
+  background: transparent;
+  white-space: nowrap;
+}
+.share-readonly-exit:hover { background: rgba(255, 255, 255, 0.12); }
 body.read-only-share .primary,
 body.read-only-share #addLeadBtn,
 body.read-only-share #resetBtn { pointer-events: none; opacity: 0.45; }

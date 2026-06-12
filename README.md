@@ -41,13 +41,33 @@ npm test
 From PowerShell in this folder:
 
 ```powershell
+$env:Path = "C:\Program Files\GitHub CLI;" + $env:Path
 gh auth login -h github.com -p https -w
 .\scripts\publish-github.ps1
 ```
 
-Then in the new GitHub repo: **Settings → Pages → Build and deployment → Source** → **GitHub Actions**.
+If `gh` is still not found, use the full path:
 
-The workflow runs automatically on every push to `main`.
+```powershell
+& "C:\Program Files\GitHub CLI\gh.exe" auth login -h github.com -p https -w
+.\scripts\publish-github.ps1
+```
+
+### Enable the live site (pick one)
+
+**Option A — simplest (recommended if you don’t see “GitHub Actions”)**
+
+1. Open: https://github.com/rashidm0014/specialty-job-compare/settings/pages  
+2. Left sidebar → **Pages** (under “Code and automation”)  
+3. **Source** → **Deploy from a branch**  
+4. Branch **main**, folder **/ (root)** → **Save**  
+5. Wait ~2 minutes. Site: https://rashidm0014.github.io/specialty-job-compare/
+
+**Option B — GitHub Actions**
+
+Same **Pages** screen → **Source** → **GitHub Actions** (then re-run the failed workflow in the **Actions** tab).
+
+If you don’t see **Pages** in the left sidebar: click **Settings** on the repo (gear icon), scroll the left menu — it’s below **Actions**.
 
 ## License
 
